@@ -9,10 +9,11 @@ from fastai import *
 from fastai.vision import *
 
 # export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
-export_file_url = 'https://drive.google.com/uc?authuser=0&id=17sjVOHT1Kpp6F08xua2QIcITJ-_zJKa1&export=download'
+# teddiebear export_file_url = 'https://drive.google.com/uc?authuser=0&id=17sjVOHT1Kpp6F08xua2QIcITJ-_zJKa1&export=download'
+export_file_url = 'https://drive.google.com/uc?authuser=0&id=1GXe3vedPuAEIlXEFDPDkkIZMF3Nwj8h-&export=download'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['boterbloem','brem','buxus','eik','hondsdraf','scheerling']
 path = Path(__file__).parent
 
 app = Starlette()
